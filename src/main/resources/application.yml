@@ -1,0 +1,24 @@
+server:
+  port: 8205
+
+spring:
+  datasource:
+    username: addressBook
+    password: addressBook123
+    url: jdbc:mysql://36.137.185.208:13306/addressbook
+  redis:
+    port: 16379
+    host: 36.137.185.208
+    database: 15
+    password: ZBZC#yfb
+logging:
+  level:
+    com.lantu: debug
+
+#mybatis-plus:
+#  global-config:
+#    db-config:
+#      logic-delete-field: deleted
+#      logic-not-delete-value: 0
+#      logic-delete-value: 1
+
